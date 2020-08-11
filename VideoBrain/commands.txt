@@ -1,0 +1,7 @@
+ MacBook-Pro-4:eugenio$ /Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6 -m venv thumb-predictor/
+ MacBook-Pro-4:eugenio$ cd thumb-predictor/
+ MacBook-Pro-4:thumb-predictor eugenio$ source bin/activate
+ MacBook-Pro-4:thumb-predictor eugenio$ pip install --upgrade pip
+ MacBook-Pro-4:thumb-predictor eugenio$ pip3 install numpy scipy scikit-learn pillow tensorflow==1.1.0 pandas h5py opencv-python==3.3.1.11 keras statistics pyyaml pyparsing cycler matplotlib Flask ffmpy pafy youtube-dl
+ MacBook-Pro-4:thumb-predictor eugenio$ python3.6 thumbnail_processor.py --video=https://www.youtube.com/watch?v=EmAzHt9MLkU
+ MacBook-Pro-4:thumb-predictor eugenio$ PYTHONHTTPSVERIFY=0 python3.6 thumbnail_processor.py --video=https://www.youtube.com/watch?v=EmAzHt9MLkU
